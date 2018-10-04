@@ -1,0 +1,54 @@
+header {
+  border: 1px solid goldenrod;
+}
+
+header ul li {
+  list-style-type: none;
+  margin: auto;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.disabled {
+  color: grey;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div:first-child{
+  color: red;
+}
+
+.parent div:nth-child(3){
+  color :blue;
+  }
+
+.parent div:nth-child(3) + h4{
+  background-color: blue;
+}
+
+.parent div:first-child + h4{
+  background-color: red;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+/* Need to keep working with this, I think the selector is right, but it's not changing anything */
+input[type:"text"] > {
+  line-height: 50px;
+}
